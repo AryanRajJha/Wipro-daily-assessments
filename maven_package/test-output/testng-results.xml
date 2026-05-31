@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-23T18:00:27 IST" name="CrossBrowserGridSuite" finished-at="2026-05-23T18:00:58 IST" duration-ms="31008">
+    <groups>
+    </groups>
+    <test started-at="2026-05-23T18:00:27 IST" name="EdgeTest" finished-at="2026-05-23T18:00:57 IST" duration-ms="29925">
+      <class name="maven_package.CrossBrowserTestGrid">
+        <test-method signature="launchBrowser(java.lang.String)[pri:0, instance:maven_package.CrossBrowserTestGrid@37858383]" started-at="2026-05-23T18:00:27 IST" name="launchBrowser" finished-at="2026-05-23T18:00:57 IST" duration-ms="29854" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+      </class> <!-- maven_package.CrossBrowserTestGrid -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2026-05-23T18:00:27 IST" name="ChromeTest" finished-at="2026-05-23T18:00:58 IST" duration-ms="31008">
+      <class name="maven_package.CrossBrowserTestGrid">
+        <test-method signature="launchBrowser(java.lang.String)[pri:0, instance:maven_package.CrossBrowserTestGrid@58ea606c]" started-at="2026-05-23T18:00:27 IST" name="launchBrowser" finished-at="2026-05-23T18:00:58 IST" duration-ms="30945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+      </class> <!-- maven_package.CrossBrowserTestGrid -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- CrossBrowserGridSuite -->
+</testng-results>
