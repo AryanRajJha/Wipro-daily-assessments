@@ -1,0 +1,54 @@
+package first_class;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+public class sauce_demo {
+	public static void main(String[] args) throws InterruptedException {
+		
+	
+	WebDriver driver1 = new ChromeDriver();
+	 driver1.get("https://www.saucedemo.com/");
+	 driver1.manage().window().maximize();
+	 Thread.sleep(2000);
+
+	 
+	 driver1.findElement(By.id("user-name")).sendKeys("standard_user");
+	 driver1.findElement(By.id("password")).sendKeys("secret_sauce");
+	 driver1.findElement(By.id("login-button")).click();
+	 Thread.sleep(2000);
+
+	 
+	 driver1.findElement(By.id("add-to-cart-sauce-labs-backpack")).click();
+	 Thread.sleep(1000);
+
+	 
+	 driver1.findElement(By.className("shopping_cart_link")).click();
+	 Thread.sleep(2000);
+
+	 
+	 driver1.findElement(By.id("checkout")).click();
+	 Thread.sleep(2000);
+
+	 
+	 driver1.findElement(By.id("first-name")).sendKeys("Aryan");
+	 driver1.findElement(By.id("last-name")).sendKeys("Raj");
+	 driver1.findElement(By.id("postal-code")).sendKeys("123456");
+	 Thread.sleep(1000);
+
+	 
+	 driver1.findElement(By.id("continue")).click();
+	 Thread.sleep(2000);
+
+	 
+	 driver1.findElement(By.id("finish")).click();
+	 Thread.sleep(2000);
+
+	
+	 System.out.println("Order placed! Title: " + driver1.getTitle());
+	 System.out.println("Confirmation: " + driver1.findElement(By.className("complete-header")).getText());
+
+	 Thread.sleep(3000);
+	 driver1.quit();
+	}
+}
