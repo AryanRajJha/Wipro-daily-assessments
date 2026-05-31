@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-22T16:51:26 IST" name="Default suite" finished-at="2026-05-22T16:51:43 IST" duration-ms="16980">
+    <groups>
+      <group name="regression">
+        <method signature="day25SmokeRegressionTest.invalidLoginTest()[pri:0, instance:TestNG.day25SmokeRegressionTest@206a70ef]" name="invalidLoginTest" class="TestNG.day25SmokeRegressionTest"/>
+        <method signature="day25SmokeRegressionTest.validLoginTest()[pri:0, instance:TestNG.day25SmokeRegressionTest@206a70ef]" name="validLoginTest" class="TestNG.day25SmokeRegressionTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="day25SmokeRegressionTest.verifyLoginButtonDisplayed()[pri:0, instance:TestNG.day25SmokeRegressionTest@206a70ef]" name="verifyLoginButtonDisplayed" class="TestNG.day25SmokeRegressionTest"/>
+        <method signature="day25SmokeRegressionTest.verifyLoginPageTitle()[pri:0, instance:TestNG.day25SmokeRegressionTest@206a70ef]" name="verifyLoginPageTitle" class="TestNG.day25SmokeRegressionTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-05-22T16:51:26 IST" name="Default test" finished-at="2026-05-22T16:51:43 IST" duration-ms="16980">
+      <class name="TestNG.day25SmokeRegressionTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG.day25SmokeRegressionTest@206a70ef]" started-at="2026-05-22T16:51:26 IST" name="setup" finished-at="2026-05-22T16:51:31 IST" duration-ms="5096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidLoginTest()[pri:0, instance:TestNG.day25SmokeRegressionTest@206a70ef]" started-at="2026-05-22T16:51:31 IST" name="invalidLoginTest" finished-at="2026-05-22T16:51:34 IST" duration-ms="2425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG.day25SmokeRegressionTest@206a70ef]" started-at="2026-05-22T16:51:34 IST" name="tearDown" finished-at="2026-05-22T16:51:34 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG.day25SmokeRegressionTest@206a70ef]" started-at="2026-05-22T16:51:34 IST" name="setup" finished-at="2026-05-22T16:51:36 IST" duration-ms="1978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLoginTest()[pri:0, instance:TestNG.day25SmokeRegressionTest@206a70ef]" started-at="2026-05-22T16:51:36 IST" name="validLoginTest" finished-at="2026-05-22T16:51:38 IST" duration-ms="2325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG.day25SmokeRegressionTest@206a70ef]" started-at="2026-05-22T16:51:38 IST" name="tearDown" finished-at="2026-05-22T16:51:39 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG.day25SmokeRegressionTest@206a70ef]" started-at="2026-05-22T16:51:39 IST" name="setup" finished-at="2026-05-22T16:51:41 IST" duration-ms="2320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginButtonDisplayed()[pri:0, instance:TestNG.day25SmokeRegressionTest@206a70ef]" started-at="2026-05-22T16:51:41 IST" name="verifyLoginButtonDisplayed" finished-at="2026-05-22T16:51:41 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginButtonDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG.day25SmokeRegressionTest@206a70ef]" started-at="2026-05-22T16:51:41 IST" name="tearDown" finished-at="2026-05-22T16:51:41 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG.day25SmokeRegressionTest@206a70ef]" started-at="2026-05-22T16:51:41 IST" name="setup" finished-at="2026-05-22T16:51:43 IST" duration-ms="2024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginPageTitle()[pri:0, instance:TestNG.day25SmokeRegressionTest@206a70ef]" started-at="2026-05-22T16:51:43 IST" name="verifyLoginPageTitle" finished-at="2026-05-22T16:51:43 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG.day25SmokeRegressionTest@206a70ef]" started-at="2026-05-22T16:51:43 IST" name="tearDown" finished-at="2026-05-22T16:51:43 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNG.day25SmokeRegressionTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
